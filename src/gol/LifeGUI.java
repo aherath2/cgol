@@ -358,7 +358,7 @@ public class LifeGUI extends JFrame implements ActionListener, KeyListener {
 		
 		color = Color.BLUE;
 		randomChance = 0.33;
-		LifeBoard.circle = true;
+		LifeBoard.circle = false;
 		new LifeGUI();
 	}
 }
